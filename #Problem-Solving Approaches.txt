@@ -1,0 +1,10 @@
+Problem solving approaches/techniques in programming are different ways or strategies to solve a problem. 
+Note: Each approach has its own logic and use case.
+
+Some Problem Solving Approaches:
+1. Brute Force Approach: Just a normal way of solving problems, the casual/regular thinking approach of using loops/conditions and getting a solution.
+2. Recursion: An approach wherein same function is called again and again along with a base condition to break out the loop.
+3. Backtracking: Another approach wherein tracing back through the steps of program when its implementation fails and continue until it succeeds.
+4. Two-Pointer Approach: In this approach, two pointers (left & right, or start & end) are used based on the condition that helps solve the problems faster.
+5. Sliding Window: An approach of taking small group (or a window) and sliding through it to solve the problem.
+6. Dynamic Programming: An approachto solve problems by breaking them into smaller, repeating parts where each part is solved once and saved.

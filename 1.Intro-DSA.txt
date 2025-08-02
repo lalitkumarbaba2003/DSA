@@ -1,0 +1,66 @@
+Data Strucutre: A data structure is simply a way of organizing, managing, and storing data in a computer, so it can be accessed and updated efficiently.
+Data (The Information), Structure (How We Store It), Operations (What We Do with Data Structures).
+
+Types of Data Structures: 
+1.Linear Data Structures: Data arranged sequentially like Arrays, Linked Lists, Stacks, Queues, etc.
+2.Non-linear Data Structures: Data arranged in complex ways like Trees, Graphs, Maps, etc.
+
+
+Algorithms: An algorithm is a finite set of well-defined instructions designed to solve a problem or perform a computation. 
+It takes input, processes it systematically, and produces the desired output. A good algorithm must be clear, efficient, and scalable to handle large amounts of 
+data effectively.
+
+Different ways of writing Algorithms: 
+1.Writing in Plain English (Step-by-Step Instructions)
+2.Writing in Pseudocode
+3.Writing Using Flowcharts.
+
+The bestway to master the art of writing an Algorithm:
+Step 1: Understand the Problem Clearly
+Step 2: Identify Inputs and Outputs
+Step 3: Break the Process into Simple Steps
+Step 4: Think About Special Cases
+Step 5: Make it Efficient
+Step 6: Write in Plain Steps (Pseudocode)
+
+
+Time Complexity: Time complexity is a measure of how the runtime of an algorithm grows relative to the size of the input data. 
+It helps determine how efficient an algorithm is in terms of speed as the amount of data it processes increases.
+
+The time complexity of an algorithm is measured based on two main factors:
+1.Compilation Time: This is the time it takes for the code to be translated into a format the computer can execute.
+During compilation, the compiler checks your code for errors like incorrect syntax or data types.
+2.Runtime (Execution Time): The time taken by the compiled code to run and produce results.
+The runtime depends primarily on executable instructions such as loops, conditionals, and function calls rather than declarations or comments.
+
+Three main scenarios programmers typically analyze:
+1.Worst-Case Complexity (Big O Notation): the longest possible time an algorithm might take.
+2.Average-Case Complexity (Big Theta Notation): the typical running time when you perform the task many times.
+3.Best-Case Complexity (Big Omega Notation): the shortest possible time an algorithm could take.
+But, programmers always focus on Worst-Case Complexity (Big O )as it provides the maximum possible time an algorithm can take as the input size increases.
+
+Space Complexity: Space complexity refers to the amount of memory space required by an algorithm to complete its execution, relative to the size of the input data. 
+It helps assess how efficiently an algorithm uses memory resources as input sizes scale.
+
+Some scenarios of space complexity:
+Constant Space - O(1)
+Linear Space - O(n)
+Quadratic Space - O(n²)
+
+Algorithm Analysis: The study of an algorithm's running time and resource usage based on input size.
+It helps developers select the most suitable algorithms by understanding their best-case, average-case, and worst-case performances, ensuring efficiency and 
+reliability in real-world applications.
+
+Some of the analysed Asymptotic worst-cases:
+O(1) – Constant Time: The execution time remains the same regardless of input size. Example: Accessing an element in an array.
+O(log n) – Logarithmic Time: The execution time grows slowly as input size increases. Example: Binary search.
+O(n) – Linear Time: Execution time increases proportionally with n. Example: Iterating through an array.
+O(n log n) – Log-Linear Time: Common in efficient sorting algorithms like Merge Sort and Quick Sort.
+O(n²) – Quadratic Time: Performance degrades significantly for large n, often seen in nested loops (e.g., Bubble Sort, Insertion Sort).
+O(n³) - Cubic Time: This complexity grows significantly faster than quadratic or linear complexities.
+O(√n) – Square Root Time: Less common but appears in certain algorithms like optimized searching.
+O(2ⁿ) – Exponential Time: Execution time doubles with every additional input, making these algorithms impractical for large inputs (e.g., recursive Fibonacci).
+O(n!) – Factorial Time: The worst-case complexity, where execution grows at an incredibly fast rate (e.g., solving Traveling Salesman Problem with brute force).
+
+Note: Ignore constants in analysis, as they become insignificant when input size grows with dominant terms.
+Algorithms with high complexity can be optimized by choosing efficient algorithms or by reducing unnecessary loops and operations.

@@ -1,0 +1,42 @@
+Array: An array is a data structure that stores a fixed-size collection of elements of the same type, placed in contiguous memory locations.
+
+1. Declaring an Array:  dataType[] arrayName; //example: int[] marks;
+2. Initializing with Size: arrayName = new dataType[size]; //example: marks = new int[5]; By default, Java fills it with 0s for now: [0, 0, 0, 0, 0]
+3. Declaring and Initializing Together: int[] marks = {85, 90, 76, 88, 95};
+4. Accessing array elements: int firstMark = marks[0]; //Array indexing starts from 0 to (array size - 1).
+5. Modifying the array elemnts: marks[2] = 80; //One can modify array elements, but not the size of it.
+6. Finding size of the array: int totalSubjects = marks.length; //length holds the size of an array.
+
+- Adding elements using for loop: 
+for (int i = 0; i < marks.length; i++) {
+    System.out.print("Enter mark for student " + (i + 1) + ": ");
+    marks[i] = sc.nextInt();
+}
+
+- Traversing/Printing array elements:
+for (int i = 0; i < marks.length; i++) {
+    System.out.println("Student " + (i + 1) + ": " + marks[i]);
+}
+
+2D Array: A 2-D array is an array of arrays. It stores data in the form of rows and columns — just like a matrix or a table.
+
+1. Declaring an 2D Array:  dataType[][] arrayName; //example: int[][] marks;
+2. Initializing with Size: arrayName = new dataType[rows][columns]; //example: marks = new int[3][2];
+3. Declaring and Initializing size together: int[][] marks = new int[3][2];
+4. Storing values in 0th row be like: marks[0][0] = 85; and marks[0][1] = 90; //0th row, 0th column = 85, and 0th row, 1st column = 90.
+
+- Adding elements using nested for loops:
+for (int i = 0; i < 3; i++) { // outer loop = students (rows)
+    for (int j = 0; j < 2; j++) { // inner loop = subjects (columns)
+        System.out.print("Enter marks for student " + (i + 1) + ", subject " + (j + 1) + ": ");
+        marks[i][j] = sc.nextInt();
+    }
+}
+
+- Traversing/Printing array elements:
+for (int i = 0; i < 3; i++) { // rows = students
+    for (int j = 0; j < 2; j++) { // columns = subjects
+        System.out.print(marks[i][j] + " ");
+    }
+    System.out.println(); // go to next line after each row
+}
