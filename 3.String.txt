@@ -1,0 +1,46 @@
+String: A String in Java is a sequence of characters enclosed in double quotes, used to store and work with text.
+
+- Creation of a String using 'String' class:
+String name1 = "randomName"; //Java creates this string in String Pool.
+String name2 = new String("Name2"); //Java creates this string outside String Pool
+
+Note: 
+Strings are written inside double quotes and in Java they are objects.
+Strings are immutable and if we try to change it, Java creates a new string in the background.
+
+- Some common inbuilt methods of String:
+1. length(): returns total length or number of characters in the string.
+2. charAt(index): returns the character for the asked index.
+3. toUpperCase() & toLowerCase(): change te case of a string.
+4. equals() & equalsIgnoreCase(): equals() compares two strings exactly and equalsIgnoreCase() compares the strings by ignoring the cases.
+5. contains(specifiedString): this method checks for the specifiedString in the original string.
+6. substring(start, end): returns part of a string from index position start to end, but will not include end positioned index.
+7. trim(): trims the leading and trailing spaces of string.
+8. replace(old, new): replaces the old string part present in original string with new string part.
+9. split(delimiter): splits the string or sentence using the delimiter specified and stores them in array.
+10. toCharArray(): creates a character array for a string.
+
+- Creation of a String using 'StringBuilder' class:
+StringBuilder sb = new StringBuilder("firstName"); //Java creates this as object. 
+
+Note:
+StringBuilder strings are mutable, faster and not thread-safe.
+
+- Some common inbuilt methods of StringBuilder: 
+1. length(): returns the current length (number of characters) of the StringBuilder.
+2. append(" lastName"): Appends "lastName" to the end of the StringBuilder.
+3. insert(index, string): inserts string at a specified index within the StringBuilder.
+4. delete(start, end): deletes a substring defined by start and end indices.
+5. replace(start, end, newString): replaces a portion of the StringBuilder with a new string.
+6. reverse(): reverses the sequence of characters in the StringBuilder.
+7. indexOf(string): returns the index of the first occurrence of a specified substring. 
+8. lastIndexOf(string): returns the index of the last occurrence of a specified substring. 
+9. substring(start, end): returns a new String object representing a subsequence of the StringBuilder.
+10. toString(): converts the StringBuilder content to an immutable String object.
+
+- Creation of a String using 'StringBuffer' class:
+StringBuffer sb = new StringBuffer("firstName"); //Java creates this as object. 
+
+Note:
+StringBuffer strings are mutable, thread-safe but slower than StringBuilder.
+StringBuffer shares common methods as StringBuilder.
