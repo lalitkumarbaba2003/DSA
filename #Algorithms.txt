@@ -1,0 +1,6 @@
+- Searching: It is simply the process of finding whether a particular element exists within a data structure.
+Two Main Types of Searching Algorithms: 
+1. Linear Search: Linear Search checks each item in order, one by one. It’s very easy to use but can take longer if there are many items.
+   Time Complexity: O(n) – This means in the worst case, you might have to look through every single item.
+2. Binary Search: Binary Search looks in the middle first, then halves the pile each time. It’s much faster but only works if the items are already in order.
+   Time Complexity: O(log n) – Super-fast, but there’s a catch – it only works if your data is already sorted.
