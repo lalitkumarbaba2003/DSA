@@ -4,3 +4,5 @@ Two Main Types of Searching Algorithms:
    Time Complexity: O(n) – This means in the worst case, you might have to look through every single item.
 2. Binary Search: Binary Search looks in the middle first, then halves the pile each time. It’s much faster but only works if the items are already in order.
    Time Complexity: O(log n) – Super-fast, but there’s a catch – it only works if your data is already sorted.
+
+- Sorting: It is the process of arranging data in a specific order, typically in ascending or descending order.
