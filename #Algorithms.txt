@@ -6,3 +6,7 @@ Two Main Types of Searching Algorithms:
    Time Complexity: O(log n) – Super-fast, but there’s a catch – it only works if your data is already sorted.
 
 - Sorting: It is the process of arranging data in a specific order, typically in ascending or descending order.
+Common Sorting Algorithms:
+1. Bubble Sort
+2. Selection Sort
+3. Insertion Sort
